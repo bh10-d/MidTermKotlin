@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/flagimageView"
+        android:id="@+id/imageView"
         android:layout_width="138dp"
         android:layout_height="91dp"
         android:layout_marginStart="4dp"
@@ -28,16 +28,16 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/flagimageView"
-        app:layout_constraintTop_toTopOf="@+id/flagimageView" />
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/populationTV"
+        android:id="@+id/yearTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="90 milions"
-        app:layout_constraintBottom_toBottomOf="@+id/flagimageView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/flagimageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/nameTV" />
 </androidx.constraintlayout.widget.ConstraintLayout>

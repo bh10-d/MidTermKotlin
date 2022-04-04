@@ -6,6 +6,12 @@
         <entry key="..\:/D/hochanh/Android/CountryList/app/src/main/res/layout/activity_country_description.xml" value="0.371875" />
         <entry key="..\:/D/hochanh/Android/CountryList/app/src/main/res/layout/activity_main.xml" value="0.1765625" />
         <entry key="..\:/D/hochanh/Android/CountryList/app/src/main/res/layout/country_item.xml" value="0.5" />
+        <entry key="..\:/hoctap/Didong/app/CountryList_Kotlin_Example/app/src/main/res/layout/activity_country_description.xml" value="0.25" />
+        <entry key="..\:/hoctap/Didong/app/CountryList_Kotlin_Example/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/hoctap/Didong/app/CountryList_Kotlin_Example/app/src/main/res/layout/activity_student_description.xml" value="0.24635416666666668" />
+        <entry key="..\:/hoctap/Didong/app/CountryList_Kotlin_Example/app/src/main/res/layout/country_item.xml" value="0.25" />
+        <entry key="..\:/hoctap/Didong/app/CountryList_Kotlin_Example/app/src/main/res/layout/student_item.xml" value="0.17604166666666668" />
+        <entry key="..\:/hoctap/Didong/app/CountryList_Kotlin_Example/app/src/main/res/layout/studentadapter.xml" value="0.24635416666666668" />
       </map>
     </option>
   </component>
