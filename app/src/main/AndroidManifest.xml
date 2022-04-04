@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CountryList">
         <activity
+            android:name=".StudentDescriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DescriptionStudentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_description_student"
+            android:theme="@style/Theme.CountryList.NoActionBar" />
+        <activity
             android:name=".CountryDescriptionActivity"
             android:exported="false" />
         <activity

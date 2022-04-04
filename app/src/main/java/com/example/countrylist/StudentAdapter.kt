@@ -36,7 +36,7 @@ class StudentAdapter(val context: Context, val studentList: List<StudentList>):R
         val detail = view.findViewById<TextView>(R.id.yearTV)
         init {// code trong ham init se luon duoc khoi chay khi ma ham dc khoi tao (goi)
             view.setOnClickListener{
-                onItemClick?.invoke(studentList[adapterPosition])
+               onItemClick?.invoke(studentList[adapterPosition])
             }
         }
     }

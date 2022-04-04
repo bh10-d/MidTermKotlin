@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity() {
         studentRV.adapter = studentAdapter // add adapter for recyclerview
         studentAdapter.onItemClick = { studentinfo -> // set behavior for element in adapter (click)
             val intent = Intent(this,StudentDescriptionActivity::class.java) // call countrydescription class and pass data
-            intent.putExtra("img",studentinfo.imgResource)
+            intent.putExtra("img", studentinfo.imgResource)
             intent.putExtra("name", studentinfo.name)
-            intent.putExtra("year", studentinfo.year)
+            intent.putExtra("year", studentinfo.year.toString())
             intent.putExtra("detail",studentinfo.detail)
             startActivity(intent)
         }
